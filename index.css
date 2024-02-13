@@ -1314,7 +1314,7 @@
   flex-direction: row;
   background-size: contain;
   justify-content: flex-end;
-  background-image: 079e0300-29dd-4419-8324-ac00b5e0175b;
+  background-image: url("public/vpny1-400w.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -3458,6 +3458,7 @@
   .home-image {
     width: 100%;
     max-width: 400px;
+    background-image: url("public/vpny1-400w.png");
   }
   .home-text09 {
     font-size: 28px;
