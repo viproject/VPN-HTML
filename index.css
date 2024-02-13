@@ -882,6 +882,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: space-between;
+  background-color: #a62424;
 }
 .home-title {
   font-size: 64px;
@@ -3458,7 +3459,7 @@
   .home-image {
     width: 100%;
     max-width: 400px;
-    background-image: d9c956d0-6a45-4d0d-893d-e4777196148c;
+    background-image: url("public/vpny1-400w.png");
   }
   .home-text09 {
     font-size: 28px;
