@@ -64,38 +64,6 @@
   flex-direction: row;
   justify-content: center;
 }
-.navbar-log-in {
-  display: none;
-}
-.navbar-link4 {
-  display: contents;
-}
-.navbar-sign-up-btn {
-  display: none;
-  transition: 0.3s;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: center;
-  text-decoration: none;
-  background-color: #ADE2DF;
-}
-.navbar-sign-up-btn:hover {
-  background-color: rgba(173, 226, 223, 0.5);
-}
-.navbar-sign-up {
-  font-style: normal;
-  font-weight: 500;
-}
-.navbar-hamburger-menu {
-  width: 20px;
-  height: 12px;
-  display: none;
-}
 .navbar-container2 {
   display: contents;
 }
@@ -118,53 +86,27 @@
   .navbar-desktop {
     flex-direction: column;
   }
-  .navbar-container {
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    align-self: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: space-between;
-  }
   .navbar-links {
     display: none;
   }
   .navbar-quick-actions {
     justify-content: center;
   }
-  .navbar-log-in {
-    display: none;
-  }
-  .navbar-sign-up-btn {
-    display: none;
-  }
-  .navbar-hamburger-menu {
-    display: none;
-  }
-  .navbar-container3 {
-    align-self: flex-end;
-  }
 }
 @media(max-width: 767px) {
   .navbar-navbar {
     align-items: center;
   }
-  .navbar-container3 {
-    display: flex;
-  }
 }
 @media(max-width: 479px) {
-  .navbar-hamburger-menu {
-    display: none;
-  }
   .navbar-container1 {
-    width: 250px;
     display: none;
   }
   .navbar-container3 {
-    width: 250px;
-    display: flex;
+    display: inline;
+    align-self: flex-end;
+    align-items: flex-start;
+    justify-content: space-between;
   }
   .navbar-root-class-name3 {
     max-width: 1100px;
@@ -3135,6 +3077,9 @@
   }
 }
 @media(max-width: 767px) {
+  .home-header {
+    height: auto;
+  }
   .home-content {
     width: 100%;
   }
@@ -3408,9 +3353,6 @@
   }
   .home-title1 {
     font-size: 16px;
-  }
-  .home-get-started1 {
-    display: none;
   }
   .home-text79 {
     width: 100%;
