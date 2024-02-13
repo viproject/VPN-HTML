@@ -3421,7 +3421,8 @@
     height: auto;
   }
   .home-title {
-    font-size: 36px;
+    font-size: 30px;
+    line-height: 38px;
   }
   .home-hero-buttons {
     width: 100%;
