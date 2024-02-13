@@ -3460,6 +3460,14 @@
     max-width: 400px;
     background-image: d9c956d0-6a45-4d0d-893d-e4777196148c;
   }
+  .home-text09 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .home-text13 {
+    font-size: 28px;
+    line-height: 38px;
+  }
   .home-image1 {
     width: 100%;
     max-width: 400px;
@@ -3469,6 +3477,10 @@
     width: 100%;
     max-width: 400px;
     background-image: d9c956d0-6a45-4d0d-893d-e4777196148c;
+  }
+  .home-text15 {
+    font-size: 28px;
+    line-height: 38px;
   }
   .home-help {
     align-items: center;
